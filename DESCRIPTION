@@ -1,0 +1,48 @@
+Package: MutSeqRData
+Title: Experimental Data for MutSeqR Examples
+Version: 0.99.0
+Authors@R: c(
+    person("Matthew J.", "Meier",
+      email = "matthew.meier@hc-sc.gc.ca",
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0001-8199-8754")
+    ),
+    person("Annette E.", "Dodge",
+      email = "annette.dodge@hc-sc.gc.ca",
+      role = "aut",
+      comment = c(ORCID = "0000-0002-0446-9055")
+    ),
+    person("Andrew", "Williams",
+      role = "aut",
+      comment = c(ORCID = "0000-0002-7637-7686")
+    ),
+    person("Elena", "Esina", 
+      role = "aut",
+      comment = c(ORCID = "0009-0002-3443-378X")
+    ),
+    person("Danielle", "LeBlanc",
+      role = "ctb",
+      comment = c(ORCID = "0000-0002-3847-8371")
+    ),
+    person("Geronimo", "Matteo",
+      role = "ctb",
+      comment = c(ORCID = "0000-0003-0819-4471")
+    ),
+    person("David M.", "Schuster",
+      role = "ctb",
+      comment = c(ORCID = "0009-0001-6316-4358")
+    ),
+    person("Francesco", "Marchetti",
+      role = "ctb",
+      comment = c(ORCID = "0000-0002-9435-4867")
+    ),
+    person("Carole", "Yauk",
+      role = "ctb",
+      comment = c(ORCID = "0000-0002-6725-3454")
+    )
+  )
+Description: Experimental data for use with the MutSeqR vignette and examples. This dataset is taken from LeBlanc et al., 2022. 24 MutaMouse animals were exposed to one of three doses of benzo[a]pyrene or a vehicle control for 28 days by oral gavage. 28 days after the end of the exposure, bone marrow of the femurs was harvested from euthanized animals. DNA extraction was conducted via DNeasy Blood and Tissue kit. DNA samples were sequenced using TwinStrand's Duplex Sequencing on the Mouse Mutagenesis Panel at > 10,000 depth. The Mouse Mutagenesis Panel comprises 20 2.4kb genomic targets with one located on each mouse autosome (two on chromosome 1). Pre-processing of sequence reads was redone since publication using an updated version of TwinStrand's Mutagenesis App (v. 3.20.1) which produced tabular mutation data files for each sample. Data contained herein are only those required for running MutSeqR examples and vignette.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: false
+biocViews: ExperimentHub, DataImport
