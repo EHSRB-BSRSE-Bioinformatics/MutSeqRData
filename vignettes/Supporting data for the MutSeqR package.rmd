@@ -1,0 +1,81 @@
+---
+title: "Supporting data for the MutSeqR package"
+author:
+- name: Annette E. Dodge
+- name: Matthew J. Meier
+  email: matthew.meier@hc-sc.gc.ca
+Date: "`r Sys.Date()`"
+package: MutSeqRData
+output:
+  BiocStyle::html_document
+abstract: |
+  Description of your vignette
+vignette: |
+  %\VignetteIndexEntry{SUpporting data for the MutSeqR package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# MutSeqRData
+
+This data package provides supporting data for [MutSeqR](https://github.com/EHSRB-BSRSE-Bioinformatics/MutSeqR).
+
+This package contain the following objects:
+  - Example import_mut_data
+  - Example import_mut_data using Custom column names
+  - Example import_vcf_data
+  - Example mutation data
+  - Example mutation data filtered
+  - Precalculated Depth at Base 6 Resolution
+  - Precalculated Depth at Base 12 Resolution
+  - Precalculated Depth at Base 96 Resolution
+  - Precalculated Depth at Base 192 Resolution
+
+
+# Installation
+
+Install MutSeqRData from Bioconductor:
+
+```{r, eval = FALSE}
+if (!require("BiocManager", quietly=TRUE)) {
+  install.packages("BiocManager")
+}
+BiocManager::install("MutSeqRData")
+```
+
+Or from Github:
+
+```{r, eval = FALSE}
+if (!require("devtools", quietly = TRUE)) {
+  install.packages("devtools")
+}
+devtools::install_github("EHSRB-BSRSE-Bioinformatics/MutSeqRData")
+```
+
+Load the package:
+
+```{r, eval = FALSE}
+library(MutSeqRData)
+```
+
+# Access Data from ExperimentHub
+
+```{r, eval = FALSE}
+if (!require("BiocManager", quietly=TRUE)) {
+  install.packages("BiocManager")
+}
+if (!require("ExperimentHubData", quietly = TRUE)) {
+  BiocManager::install("ExperimentHubData")
+}
+library(ExperimentHub)
+eh <- ExperimentHub()
+query(eh, "MutSeqRData")
+mutation_data <- eh[["access # here"]]
+
+```
+
+# Session info
+
+```{r sessionInfo, echo=FALSE}
+sessionInfo()
+```
