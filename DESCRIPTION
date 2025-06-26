@@ -56,6 +56,8 @@ biocViews:
   Genome,
   Somatic,
   SequencingData
-Imports: ExperimentHub
 Suggests: BiocStyle, knitr, rmarkdown
 RoxygenNote: 7.3.1
+VignetteBuilder: knitr
+BugReports: https://github.com/EHSRB-BSRSE-Bioinformatics/MutSeqRData/issues
+URL: https://github.com/EHSRB-BSRSE-Bioinformatics/MutSeqRData/

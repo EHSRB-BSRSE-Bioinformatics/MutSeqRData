@@ -3,3 +3,5 @@
 ^README\.md$
 ^\.git$
 ^\.github$
+^doc$
+^Meta$

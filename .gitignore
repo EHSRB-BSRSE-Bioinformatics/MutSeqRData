@@ -7,9 +7,12 @@
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
+inst/doc/*.html
 # R Environment Variables
 .Renviron
 .Rproj.user
 # Data
 inst/extdata/*
 !inst/extdata/metadata.csv
+/doc/
+/Meta/

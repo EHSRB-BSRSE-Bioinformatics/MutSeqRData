@@ -21,6 +21,7 @@ vignette: |
 This data package provides supporting data for [MutSeqR](https://github.com/EHSRB-BSRSE-Bioinformatics/MutSeqR).
 
 This package contain the following objects:
+
   - Example import_mut_data
   - Example import_mut_data using Custom column names
   - Example import_vcf_data
