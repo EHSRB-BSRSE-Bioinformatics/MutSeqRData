@@ -64,6 +64,7 @@ filtered_mutation_data <- filter_mut(
   custom_filter_val = "EndRepairFillInArtifact",
   custom_filter_rm = FALSE,
   regions = "TSpanel_mouse",
+  regions_filter = "keep_within",
   allow_half_overlap = FALSE,
   rm_filtered_mut_from_depth = TRUE
 )
