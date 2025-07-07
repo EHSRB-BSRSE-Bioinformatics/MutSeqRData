@@ -1,19 +1,20 @@
 # Session Data files
-.RData
+*.RData
 # User-specific files
-.Ruserdata
+*.Ruserdata
 # RStudio files
-.Rproj.user/
-.Rproj
+*.Rproj.user/
+*.Rproj
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
 inst/doc/*.html
 # R Environment Variables
-.Renviron
-.Rproj.user
+*.Renviron
+*.Rproj.user
 # Data
 inst/extdata/*
 !inst/extdata/metadata.csv
 /doc/
 /Meta/
+
